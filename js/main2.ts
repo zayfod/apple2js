@@ -53,15 +53,12 @@ switch (romVersion) {
         characterRom = 'apple2lc_char';
         keyboardLayout = 'apple2';
         break;
+    default:
     case 'pravetz82':
         rom = 'pravetz82';
         characterRom = 'pravetz82_char';
         keyboardLayout = 'pravetz82';
         break;
-    default:
-        rom = 'fpbasic';
-        characterRom = 'apple2_char';
-        keyboardLayout = 'apple2';
 }
 
 const options = {
